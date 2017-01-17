@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title TestApp Angular 2 ACW
+		script(src="lib/core-js/client/shim.min.js")
+		script(src="lib/zone.js")
+		script(src="lib/system.src.js")
+		script(src="systemjs.config.js")
+		script.
+			System.import('app').catch(function(err){ console.error(err); });
+	body
+		application Loading AppComponent content here ...
